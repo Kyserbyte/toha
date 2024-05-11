@@ -120,13 +120,19 @@
                   width: 50%;
                 }
               }
-              .hidden-course {
-                display: none;
-                @include transition();
-              }
-              ul {
-                margin-bottom: 0;
-              }
+            }
+            .hidden-course {
+              display: none;
+              @include transition();
+            }
+            ul {
+              margin-bottom: 0;
+            }
+          }
+
+          .custom-section {
+            .custom-content {
+              padding-bottom: 0.5em;
             }
           }
         }
